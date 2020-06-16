@@ -30,3 +30,10 @@ if y==a and x==b:
 else:
  print('figure is a quadrilateral')
 
+#calculating the area of a room in sq feet
+width   = 10
+height  = 12
+area = width * height
+print (area)
+
+
