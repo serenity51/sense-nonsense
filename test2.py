@@ -37,3 +37,11 @@ area = width * height
 print (area)
 
 
+ volume of a cylinder pir2 h
+# pi = 3.14
+# radius   = 2
+# height  =14
+#
+# volume = (pi * radius **2 * height)
+# volume=str(round(volume,1))
+# print (volume)
