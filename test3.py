@@ -2,11 +2,12 @@ unCon=0
 dt =0
 rate1 =5
 rate2 =15
-rate3 =20
-rate4= 50
+rate3 =50
+
 sur1 =0
 sur2 =5/100
 sur3= 10/100
+
 latefee = 10
 discount = 50
 
@@ -24,7 +25,7 @@ for unCon in range (100, 199, 20):
         print('discount allowed', discount)
         print('amount payable is ', unCon * rate1 + unCon * sur1 - discount)
 
-for unCon in range (100, 200, 20):
+for unCon in range (100, 199, 20):
     if dt >10:
        print("--------------------------------------")
        print('BILL FOR CONSUMER')
