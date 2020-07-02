@@ -1,7 +1,7 @@
 drinks =['orangeade', 'lemonade', 'applejuice','grapejuice', 'gin', 'vodka']
 a = ['orangeade', 'lemonade', 'applejuice','grapejuice']
 b = ['gin', 'vodka', 'whisky']
-numdrinks =0
+
 for drink in drinks:
  if drink == 'gin': break
  print('i do not like', 'gin')
