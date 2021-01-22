@@ -35,35 +35,34 @@ def balance(a, b):
     print(" you are in the red-return some fruits", bal)
 balance(1800, b)
 
-# This is the output- which is correct
-# 1750(1450 for fruits and 300 for vegs)
-# you can buy more fruit	50 is left    - The third function balance correctly gives me this
+This is the output- which is correct
+750(1450 for fruits and 300 for vegs)
+you can buy more fruit	50 is left    - The third function balance correctly gives me this
 
+________________________________________________________________________________________________________
 
-#
-# value for tf + tv was entered by me on the basis of the values obtained from
+value for tf + tv was entered by me on the basis of the values obtained from
 
-# print(print("Amount spent on fruits is",totcost("apple", 10, 50) + totcost("melon", 10,10)+ totcost("kiwi",10,60)+\
-#       totcost("orange", 10,20)+ totcost("banana",10,5 ))  -------tf
+#print("Amount spent on fruits is",totcost("apple", 10, 50) + totcost("melon", 10,10)+ totcost("kiwi",10,60)+\
+    #  totcost("orange", 10,20)+ totcost("banana",10,5 ))  ------(this is-tf)
 #
 #                                                              and
-#
-#   print("amount spent on vegetables is",tcost("lemon", 2,20) + tcost("carrot", 3, 60) + tcost(" beans", 2, 40))-----tv
+# print("amount spent on vegetables is",tcost("lemon", 2,20) + tcost("carrot", 3, 60) + tcost(" beans", 2, 40))-----(this is tv)
 
-# What I did
-#
+
+What I did
 # Now I just equated b in balance to tf+tv and it automatically substituted those values for b when I called the balance function.
 # which is fine,but
 
 
-# Question
+Question
 # Is it possible to actually call the above two functions totcost and tcost to give me the same result.
 
-# Doubt
+Doubt
 # When i did try to equate b to totcost and tcost, it didn't work.
 # Presumably because both those functions were the combination of many totcosts and tcosts. Will that be right?
 
-# Doubt 2
+Doubt 2
 #  I manually entered the values of tf and tv on the basis of the print result. Is it possible to tell the balance function
 #  to take those values from the print command itself?
 
